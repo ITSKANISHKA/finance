@@ -1,12 +1,4 @@
 {
   "cleanUrls": true
 }
-{
-  "routes": [
-    { "src": "/login", "dest": "/login.html" },
-    { "src": "/sign-up", "dest": "/sign-up.html" },
-    { "src": "/forgot-password", "dest": "/forgot-password.html" },
-    { "src": "/support", "dest": "/support.html" },
-    { "src": "/", "dest": "/index.html" }
-  ]
-}
+
