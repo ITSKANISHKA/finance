@@ -10,7 +10,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false, 
                     extensions: [], 
                     submoduleCfg: [], 
-                    userRemoteConfigs: [[url: 'https://github.com/neeraj542/Personal-Finance-Tracker.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/ITSKANISHKA/finance.git']]
                 ])
             }
         }
@@ -18,9 +18,6 @@ pipeline {
         stage('Deploy to Apache') {
             steps {
                 // Copy the code to the Apache document root directory
-                bat script: '''
-                    xcopy /s /e /y "C:\\Users\\meena_gc3wq05\\Desktop\\Personal-Finance-Tracker" "C:\\Apache24\\htdocs"
-                '''
             }
         }
     }
